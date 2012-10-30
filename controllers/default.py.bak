@@ -9,6 +9,8 @@
 ## - call exposes all registered services (none by default)
 #########################################################################
 
+import applications.twitter.modules.oauth2 as oauth2
+
 from oauth2 import Client, Consumer, Token
 
 try:
